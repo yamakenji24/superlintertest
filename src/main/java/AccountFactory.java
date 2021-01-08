@@ -1,4 +1,4 @@
-package com.company;
+package main.java;
 
 public class AccountFactory {
     public User createGuest() {

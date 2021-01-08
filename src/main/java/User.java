@@ -1,4 +1,4 @@
-package com.company;
+package main.java;
 
 abstract class User {
     private final String name;

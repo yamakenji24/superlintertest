@@ -1,4 +1,4 @@
-package com.company;
+package main.java;
 
 class Guest extends User {
     Guest() {
