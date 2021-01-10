@@ -25,7 +25,6 @@ on:
 # Set the Job #
 ###############
 jobs:
-  build:
     # Name the Job
     name: Lint Code Base
     # Set the agent to run on
