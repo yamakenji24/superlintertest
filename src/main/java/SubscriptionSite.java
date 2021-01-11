@@ -9,7 +9,7 @@ public class SubscriptionSite {
                 factory.createPaidMember()
         };
 
-        Article.create("0001", "PC入門", "PC初心者・・・", false)
+        Article.create("0001", "PC入門", "PC初心者・・・", false);
         Article.create("0002", "スマホ特集", "最新のスマホ・・・", false);
         Article.create("0003", "アプリガイド", "使えるアプリ・・・", true);
 

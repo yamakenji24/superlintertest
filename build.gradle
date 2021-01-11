@@ -1,4 +1,28 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'com.company.SubscriptionSite'
+mainClassName = 'main.java.SubscriptionSite'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
+
+sourceSets {
+    test {
+        java.srcDir file('src/main')
+    }
+}
+test {
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+    afterTest { desc, result ->
+        logger.quiet "Executing test ${desc.name} [${desc.className}] with result: ${result.resultType}"
+    }
+}
+
+

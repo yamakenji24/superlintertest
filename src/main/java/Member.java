@@ -2,7 +2,7 @@ package main.java;
 
 import java.util.TimeZone;
 
-class Member extends User {
+public class Member extends User {
     private static final long MILLIS_PER_DAY = 24 * 60 * 60 * 1000L;
     private Article browsedArticle;    //閲覧済みの有料記事
     private long browseDate = Long.MIN_VALUE;  //記事を閲覧した日付
