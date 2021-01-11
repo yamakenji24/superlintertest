@@ -1,11 +1,11 @@
-package com.company;
+package main.java;
 
-abstract class User {
+public abstract class User {
     private final String name;
 
     User(String name) {
         this.name = name;
     }
-    String getName() { return name; }
+    public String getName() { return name; }
     abstract boolean testAndMark(Article article);
 }

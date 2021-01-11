@@ -1,13 +1,13 @@
-package com.company;
+package main.java;
 
 public class AccountFactory {
     public User createGuest() {
         return new Guest();
     }
     public User createMember() {
-        return new Member("会員A");
+        return new Member("Member");
     }
     public User createPaidMember() {
-        return new PaidMember("有料会員B");
+        return new PaidMember("Subscriber");
     }
 }

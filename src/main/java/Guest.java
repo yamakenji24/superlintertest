@@ -1,8 +1,8 @@
-package com.company;
+package main.java;
 
 class Guest extends User {
     Guest() {
-        super("ゲスト");
+        super("Guest");
     }
     boolean testAndMark(Article article) {
         return article.isFree();

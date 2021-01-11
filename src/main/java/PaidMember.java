@@ -1,4 +1,4 @@
-package com.company;
+package main.java;
 
 class PaidMember extends Member {
     PaidMember(String name) {

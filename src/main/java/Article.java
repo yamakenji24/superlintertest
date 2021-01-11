@@ -1,4 +1,4 @@
-package com.company;
+package main.java;
 
 import java.util.Map;
 import java.util.Set;
@@ -15,11 +15,13 @@ public class Article {
         this.body = body;
         this.free = free;
     }
+
     static Article create(String id, String headline, String body, boolean free) {
         Article article = new Article(id, headline, body, free);
         ARTICLES.put(id, article);
         return article;
     }
+
     static Article getArticle(String id) {
         return ARTICLES.get(id);
     }
